@@ -1,10 +1,10 @@
-.portfolio {
+.project {
     min-height: 100vh;
     height: 100%;
     background: var(--bg-color-sec);
 }
 
-.portfolio h1 {
+.project h1 {
     padding-bottom: 25px;
     line-height: 1;
     color: var(--h1-color);
@@ -14,7 +14,7 @@
 
 
 
-.portfolioItem {
+.projectItem {
     width: 100%;
     height: 100%;
     display: flex;
@@ -23,7 +23,7 @@
     flex-wrap: wrap;
 }
 
-.portfolioItem div {
+.projectItem div {
     width: 100%;
     margin: 20px 0;
     position: relative;
@@ -37,7 +37,7 @@
 }
 
 
-.portfolioItem div div {
+.projectItem div div {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);
@@ -71,7 +71,7 @@
     }
 }
 
-.portfolioItem div div img {
+.projectItem div div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -79,11 +79,11 @@
     transition: .4s;
 }
 
-.portfolioItem div:hover img {
+.projectItem div:hover img {
     transform: scale(1.2);
 }
 
-.portfolioItem div ul {
+.projectItem div ul {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -99,12 +99,12 @@
     transition: .4s;
 }
 
-.portfolioItem div:hover ul {
+.projectItem div:hover ul {
     background: rgba(0, 0, 0, 0.5);
 }
 
 
-.portfolioItem div ul li {
+.projectItem div ul li {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -114,11 +114,11 @@
     transition: ease-in-out .5s;
 }
 
-.portfolioItem div:hover ul li {
+.projectItem div:hover ul li {
     margin-top: 0;
 }
 
-.portfolioItem div ul li a {
+.projectItem div ul li a {
     color: #fff;
     width: 100%;
     height: 100%;
@@ -134,18 +134,18 @@
     display: none;
 }
 
-.portfolioItem div ul li a:hover {
+.projectItem div ul li a:hover {
     background-color: #ffffff80;
     color: #000000;
 
 }
 
-.portfolioItem div:hover ul li a {
+.projectItem div:hover ul li a {
     display: flex;
 }
 
 
-.portfolioItem div ul p {
+.projectItem div ul p {
     width: 100%;
     text-align: center;
     color: #47a3da;

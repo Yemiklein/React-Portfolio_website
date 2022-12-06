@@ -5,7 +5,7 @@ import avatar from "./img/avatar.jpg";
 import aboutme from "./img/aboutme.jpg";
 import zigzag from "./img/zigzag.svg";
 import homeBg from "./img/home.jpg";
-import logo from "./icons/favicon.ico";
+// import logo from "./icons/favicon.ico";
 import notfound from "./img/notfound.jpg";
 
 // ------------- web
@@ -153,6 +153,5 @@ export default {
   homeBg,
   aboutme,
   zigzag,
-  logo,
   notfound,
 };

@@ -39,7 +39,7 @@ const CommonStyles = styled.div`
   .home,
   .aboutme,
   .resume,
-  .portfolio,
+  .project,
   .contact,
   form input,
   form textarea,

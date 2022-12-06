@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import styles from "./Portfolio.module.css";
+import styles from "./Project.module.css";
 import { t } from "i18next";
 
 import { motion } from "framer-motion";
-import { PortfoliosData } from "../../data/PortfoliosData";
+import { ProjectsData } from "../../data/ProjectsData";
 import FilterBtn from "./FilterBtn";
 
-import PortfolioItem from "./PortfolioItem";
+import ProjectItem from "./ProjectItem";
 
-const Portfolio = () => {
-  const [works] = useState(PortfoliosData);
+const Project = () => {
+  const [works] = useState(ProjectsData);
   const [filterWork, setFilterWork] = useState([]);
   const [activeFilter, setActiveFilter] = useState("All");
 
@@ -20,10 +20,10 @@ const Portfolio = () => {
       animate={{ opacity: 1, transform: "translateX(0%)" }}
       exit={{ opacity: 0, transform: "translateX(0%)" }}
       transition={{ duration: 0.8 }}
-      className={`portfolio ${styles.portfolio}`}
+      className={`project ${styles.project}`}
     >
       <div>
-        <h1>{t("portfolios")}</h1>
+        <h1>{t("projects")}</h1>
 
         <div>
           <FilterBtn
@@ -33,11 +33,11 @@ const Portfolio = () => {
             setActiveFilter={setActiveFilter}
           />
 
-          <PortfolioItem filterWork={filterWork} />
+          <ProjectItem filterWork={filterWork} />
         </div>
       </div>
     </motion.div>
   );
 };
 
-export default Portfolio;
+export default Project;

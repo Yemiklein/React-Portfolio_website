@@ -135,10 +135,10 @@ const Navbar = ({ handleOnclick, location }) => {
               </li>
               <li>
                 <NavLink
-                  to="/portfolios<"
+                  to="/projects"
                   className={({ isActive }) => (isActive ? styles.active : "")}
                 >
-                  {t("portfolios")}
+                  {t("projects")}
                 </NavLink>
               </li>
               <li>
@@ -244,10 +244,10 @@ const Navbar = ({ handleOnclick, location }) => {
               </li>
               <li>
                 <Link
-                  to="/portfolios"
+                  to="/projects"
                   className={({ isActive }) => (isActive ? styles.active : "")}
                 >
-                  {t("portfolios")}
+                  {t("projects")}
                 </Link>
               </li>
               <li>
@@ -264,6 +264,7 @@ const Navbar = ({ handleOnclick, location }) => {
               <button value="fa" onClick={handleOnclick}></button>
               <button value="en" onClick={handleOnclick}></button>
               <button value="ko" onClick={handleOnclick}></button>
+              <button value="fr" onClick={handleOnclick}></button>
             </div>
           </nav>
         )}

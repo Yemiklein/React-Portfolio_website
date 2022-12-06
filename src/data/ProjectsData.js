@@ -1,6 +1,6 @@
 import { img } from "../assets";
 
-export const PortfoliosData = [
+export const ProjectsData = [
   {
     id: 1,
     title: "Web",

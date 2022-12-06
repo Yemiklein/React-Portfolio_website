@@ -4,7 +4,7 @@ export const TRANSLATIONS_EN = {
   home: "Home",
   aboutme: "About Me",
   resume: "Resume",
-  portfolios: "Portfolios",
+  projects: "Projects",
   contact: "Contact",
 
   // age: "Age",

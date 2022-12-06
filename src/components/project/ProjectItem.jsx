@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./Portfolio.module.css";
+import styles from "./Project.module.css";
 import { motion } from "framer-motion";
 
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 
-const PortfolioItem = ({ filterWork }) => {
+const ProjectItem = ({ filterWork }) => {
   return (
-    <div className={styles.portfolioItem}>
+    <div className={styles.projectItem}>
       {filterWork.map((item) => {
         return (
           <motion.div
@@ -15,7 +15,7 @@ const PortfolioItem = ({ filterWork }) => {
             initial={{ opacity: 0, scale: 0, transform: "none" }}
             exit={{ opacity: 0, scale: 0, transform: "none" }}
             transition={{ duration: 0.5 }}
-            className={styles.portfolioItem}
+            className={styles.projectItem}
             key={item.id}
           >
             <div>
@@ -42,4 +42,4 @@ const PortfolioItem = ({ filterWork }) => {
   );
 };
 
-export default PortfolioItem;
+export default ProjectItem;
