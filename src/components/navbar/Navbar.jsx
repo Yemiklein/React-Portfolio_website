@@ -152,9 +152,9 @@ const Navbar = ({ handleOnclick, location }) => {
             </ul>
 
             <div className={styles.btns}>
-              <button value="fa" onClick={handleOnclick} />
+              {/* <button value="fa" onClick={handleOnclick} /> */}
               <button value="en" onClick={handleOnclick} />
-              <button value="ko" onClick={handleOnclick} />
+              {/* <button value="ko" onClick={handleOnclick} /> */}
               <button value="fr" onClick={handleOnclick} />
             </div>
           </nav>
@@ -261,9 +261,9 @@ const Navbar = ({ handleOnclick, location }) => {
             </ul>
 
             <div className={styles.btns}>
-              <button value="fa" onClick={handleOnclick}></button>
+              {/* <button value="fa" onClick={handleOnclick}></button> */}
               <button value="en" onClick={handleOnclick}></button>
-              <button value="ko" onClick={handleOnclick}></button>
+              {/* <button value="ko" onClick={handleOnclick}></button> */}
               <button value="fr" onClick={handleOnclick}></button>
             </div>
           </nav>

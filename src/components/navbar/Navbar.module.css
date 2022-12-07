@@ -166,19 +166,19 @@
     border: 2px solid #c0c0c0;
 }
 
-.btns button:nth-of-type(1) {
+/* .btns button:nth-of-type(1) {
     background-image: url('../../assets/icons/iran-flag.svg');
-}
+} */
 
-.btns button:nth-of-type(2) {
+.btns button:nth-of-type(1) {
     background-image: url('../../assets/icons/usa-flag.svg');
 }
 
-.btns button:nth-of-type(3) {
+/* .btns button:nth-of-type(3) {
     background-image: url('../../assets/icons/korea-flag.svg');
-}
+} */
 
-.btns button:nth-of-type(4) {
+.btns button:nth-of-type(2) {
     background-image: url('../../assets/icons/france-flag.svg');
 }
 

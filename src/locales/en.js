@@ -25,18 +25,27 @@ export const TRANSLATIONS_EN = {
   resumeTwo: "Resume",
   education: "Education",
   educationYear: "2009 - 2014",
-  educationTitle: "College education",
+  educationTitle: "University",
   educationText:
-    "South Tehran Branch of Azad University, Department of Management ,Insurance Management",
-  educationYearTwo: "2014 - 2016",
-  educationTitleTwo: "High School",
-  educationTextTwo: "Experimental",
+    "Adekunle Ajasin University, Akungba Akoko OndoState, Department of Geology, B.Sc Geology",
+  // educationYearTwo: "2014 - 2016",
+  // educationTitleTwo: "High School",
+  // educationTextTwo: "Experimental",
 
   experience: "Experience",
-  experienceYear: "2019 - 2022",
-  experienceTitle: "Web Developer",
+  experienceYear: "2022 - Till-Date",
+  experienceTitle: "Software Developer",
   experienceText:
-    "In 2019 in Tehran Technical Complex, I became interested in website design and decided to learn it.",
+    `Collaborated with project managers to select ambitious, but realistic coding milestones on pre-release software project development.
+    Updated old code bases to modern development standards, improving functionality.
+    Led version control efforts for organization, employing public and open source repositories.
+    Participated in software field testing to verify performance of developed projects.
+    Introduced agile methodologies and development best practices to division to enhance product development.
+    Designed intuitive graphical user interfaces to improve user experience.
+    Discussed issues with team members to provide resolution and apply best practices.
+    Led version control efforts for organization, employing public and open source repositories.
+    Designed intuitive graphical user interfaces to improve user experience.
+    Discussed issues with team members to provide resolution and apply best practices.`,
   experienceYearTwo: "2018",
   experienceTitleTwo: "ICDL",
   experienceTextTwo:
